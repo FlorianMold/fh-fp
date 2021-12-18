@@ -19,14 +19,6 @@ let rec aggregate f s xs =
     | [] -> s
     | x :: xs -> f x (aggregate f s xs)
 
-
-let files' =
-    Directory.EnumerateFiles @"/mnt/c/Users/User/Desktop/testfiles"
-    |> Seq.toList
-    |> Seq.collect (fun filePath -> [ File.ReadAllLines filePath ])
-
-let res = files'
-
 // Exercise 1
 
 let rec filter (f: 'a -> bool) (xs: list<'a>) : list<'a> =
