@@ -95,4 +95,4 @@ let pattern =
 
 let grepOutput = simpleGrep files pattern
 
-printfn "%A" grepOutput
+printfn $"%A{grepOutput}"
