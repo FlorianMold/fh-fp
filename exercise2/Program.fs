@@ -61,12 +61,11 @@ let getAllFiles path =
 let files =
     getAllFiles @"/home/user/projects/private/fh/fh-fp/exercise2/testfiles"
 
-
 let rec private matchLine' (patterns: list<string>) (line: string) : bool =
     match patterns with
     | [] -> false
     | pattern :: _ when line.Contains pattern -> true // return if one word in the line matches
-    | pattern :: patterns -> matchLine' patterns line
+    | _ :: patterns -> matchLine' patterns line
 
 let private matchLine (patterns: list<string>) (_, _, line: string) = matchLine' patterns line
 
