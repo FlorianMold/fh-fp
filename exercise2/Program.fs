@@ -95,3 +95,5 @@ let pattern =
       "constructor" ]
 
 let grepOutput = simpleGrep files pattern
+
+printfn "%A" grepOutput
