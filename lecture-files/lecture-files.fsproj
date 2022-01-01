@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>lecture_files</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="lecture1.fs" />
+    <Compile Include="lecture2.fs" />
+  </ItemGroup>
+
+</Project>
