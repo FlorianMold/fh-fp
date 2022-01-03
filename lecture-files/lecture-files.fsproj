@@ -12,6 +12,7 @@
     <Compile Include="lecture2\mini-linq.fs" />
     <Compile Include="lecture2\commented-lecture.fs" />
     <Compile Include="lecture1\lecture1.fs" />
+    <Compile Include="lecture3\tdd.fs" />
   </ItemGroup>
 
 </Project>
