@@ -1,3 +1,4 @@
 [submodule "FsFhtw"]
 	path = FsFhtw
 	url = git@github.com:FlorianMold/FsFhtw.git
+	branch = main
